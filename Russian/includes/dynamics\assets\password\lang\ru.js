@@ -1,0 +1,14 @@
+var locale = new Array();
+locale['wordLength'] = 'Пароль слишком короткий';
+locale['wordNotEmail'] = 'Не используйте Е-майл, как пароль';
+locale['wordSimilarToUsername'] = 'Ваш пароль не должен совпадать с Вашим логином';
+locale['wordTwoCharacterClasses'] = 'Используйте разные символы';
+locale['wordRepetitions'] = 'Слишком много попыток';
+locale['wordSequences'] = 'Ваш пароль содержит последовательности';
+locale['weak'] = 'Хилый';
+locale['normal'] = 'Слабый';
+locale['medium'] = 'Средний';
+locale['strong'] = 'Хороший';
+locale['very-strong'] = 'Защищённый';
+locale['show'] = 'Показать';
+locale['hide'] = 'Скрыть';
