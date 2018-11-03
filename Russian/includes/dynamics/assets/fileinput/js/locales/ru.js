@@ -15,7 +15,7 @@
     $.fn.fileinputLocales['ru'] = {
         fileSingle: 'файл',
         filePlural: 'файлы',
-        browseLabel: 'Выбрать &hellip;',
+        browseLabel: 'Выберите &hellip;',
         removeLabel: 'Удалить',
         removeTitle: 'Очистить выбранные файлы',
         cancelLabel: 'Отмена',
@@ -25,7 +25,7 @@
         msgNo: 'нет',
         msgNoFilesSelected: '',
         msgCancelled: 'Отменено',
-        msgPlaceholder: 'Выбрать {files}...',
+        msgPlaceholder: 'Выберите {files}...',
         msgZoomModalHeading: 'Подробное превью',
         msgFileRequired: 'Необходимо выбрать файл для загрузки.',
         msgSizeTooSmall: 'Файл "{name}" (<b>{size} KB</b>) имеет слишком маленький размер и должен быть больше <b>{minSize} KB</b>.',
