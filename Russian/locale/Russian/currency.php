@@ -1,5 +1,5 @@
 <?php
-$locale['currency'] = array(
+$locale['currency'] = [
 	"AED" => "Дирхам ОАЭ",
 	"AFN" => "Афганский афгани",
 	"ALL" => "Албанский лек",
@@ -165,9 +165,9 @@ $locale['currency'] = array(
 	"ZMK" => "Замбийская квача",
 	"ZWD" => "Доллар Зимбабве",
 	"NA" => "Нет данных",
-);
+];
 
-$locale['currency_symbol'] = array(
+$locale['currency_symbol'] = [
     'AED' => '&#1583;.&#1573;', // ?
     'AFN' => '&#65;&#102;',
     'ALL' => '&#76;&#101;&#107;',
@@ -327,4 +327,4 @@ $locale['currency_symbol'] = array(
     'ZAR' => '&#82;',
     'ZMK' => '&#90;&#75;', // ?
     'ZWL' => '&#90;&#36;',
-);
+];
