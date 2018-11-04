@@ -4,9 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------*
-| Filename: Panel/locale/English.php
-| Author: Frederick MC Chan (Chan)
-| Co-Author: Chubatyj Vitalij (Rizado)
+| Filename: panel/locale/Russian.php
+| https://ovas.club
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
