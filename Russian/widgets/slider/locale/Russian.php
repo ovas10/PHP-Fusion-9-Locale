@@ -4,9 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------*
-| Filename: Slider/locale/English.php
-| Author: Frederick MC Chan (Chan)
-| Co-Author: Chubatyj Vitalij (Rizado)
+| Filename: slider/locale/Russian.php
+| https://ovas.club
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -30,7 +29,7 @@ $locale['SLDW_0402'] = "Порядок слайда";
 $locale['SLDW_0403'] = "Дейстия";
 $locale['SLDW_0404'] = "Слайды не заданы";
 $locale['SLDW_0405'] = "Настройка свойств плагина";
-$locale['SLDW_0406'] = "Вимание: ПОжалуйста, настройте и сохраните параметры плагина до использования.";
+$locale['SLDW_0406'] = "Вимание: Пожалуйста, настройте и сохраните параметры плагина до использования.";
 $locale['SLDW_0500'] = "HTML ID плагина";
 $locale['SLDW_0501'] = "Высота блока со слайдами";
 $locale['SLDW_0502'] = "Навигация слайдов";
@@ -70,3 +69,4 @@ $locale['SLDW_0600'] = "Сохранить блок слайдов";
 $locale['SLDW_0601'] = "Сохранить блок слайдов и закрыть";
 $locale['SLDW_0602'] = "Читать далее...";
 $locale['SLDW_0603'] = "Интервал (мс)";
+
