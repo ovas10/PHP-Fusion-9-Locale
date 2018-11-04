@@ -4,9 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------*
-| Filename: Block/locale/Russian.php
-| Author: Frederick MC Chan (Chan)
-| Co-Author: Chubatyj Vitalij (Rizado)
+| Filename: block/locale/Russian.php
+| https://ovas.club
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -16,7 +15,6 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-
 $locale['BLKW_0100'] = "Блок";
 $locale['BLKW_0101'] = "Плагин текстового блока";
 $locale['BLKW_0200'] = "Заголовок блока";
