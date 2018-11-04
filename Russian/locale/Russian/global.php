@@ -360,7 +360,7 @@ $locale['go_profile'] = 'Перейти к профилю %s';
 // Global one word locales
 $locale['hello'] = "Приветствую!";
 $locale['goodbye'] = "До свидания!";
-$locale['welcome'] = "С возвращением!!!";
+$locale['welcome'] = "Привет!!!";
 $locale['home'] = "Главная";
 // Status
 $locale['error'] = "Ошибка!";
@@ -441,8 +441,8 @@ $locale['parent'] = "Создать как нового предка...";
 $locale['item_order'] = "Порядок элементов";
 $locale['status'] = "Статус";
 $locale['note'] = "Отметить этот элемент";
-$locale['publish'] = "Опубликовано";
-$locale['unpublish'] = "Не опубликовано";
+$locale['publish'] = "Опубликована";
+$locale['unpublish'] = "Не опубликована";
 $locale['sticky'] = "Прикреплено";
 $locale['unsticky'] = "Откреплено";
 $locale['draft'] = "Черновик";
@@ -516,3 +516,4 @@ $locale['fmt_category'] = "категория|категории|категор�
 $locale['fmt_review'] = "отзыв|отзывы";
 // include Defender locales
 include __DIR__."/defender.php";
+
