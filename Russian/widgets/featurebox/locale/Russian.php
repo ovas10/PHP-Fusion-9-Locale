@@ -4,9 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------*
-| Filename: Featurebox/locale/English.php
-| Author: Frederick MC Chan (Chan)
-| Co-Author: Chubatyj Vitalij (Rizado)
+| Filename: featurebox/locale/Russian.php
+| https://ovas.club
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -16,7 +15,6 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-
 $locale['FBW_0100'] = "Блок с оформлением";
 $locale['FBW_0101'] = "Плагин блока с оформлением";
 $locale['FBW_0200'] = "Заголовок блока";
