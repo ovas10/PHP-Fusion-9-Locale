@@ -1,15 +1,15 @@
 <?php
 $locale['download_1000'] = "Скачать";
 $locale['download_1001'] = "В начало загрузок";
-$locale['download_1003'] = "Категория загрузки";
-$locale['download_1004'] = "Загрузку опубликовал";
+$locale['download_1003'] = "Категории файлов";
+$locale['download_1004'] = "Файлы загрузили";
 $locale['download_1006'] = "Читать далее";
 $locale['download_1007'] = "Скачать файл";
 $locale['download_1008'] = "Оценки пользователей";
 $locale['download_1009'] = "Скриншот";
-$locale['download_1010'] = "Информация о загрузке";
+$locale['download_1010'] = "Информация о файле";
 $locale['download_1011'] = "Версия";
-$locale['download_1012'] = "Всего скачиваний";
+$locale['download_1012'] = "Скачали";
 $locale['download_1013'] = "Лицензия";
 $locale['download_1014'] = "ОС";
 $locale['download_1015'] = "Авторские права";
