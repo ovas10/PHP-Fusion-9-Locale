@@ -5,7 +5,7 @@
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: login/locale/Russian/login.php
-| https://ovas.club
+| Translator: ovasclub
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -18,9 +18,9 @@
 /*
  * Plugins
  */
-$locale['login_000'] = "Вход в систему";
-$locale['login_001'] = "Система входа позволяет управлять учетными записями пользователей с помощью сторонней системы аутентификации.";
-$locale['login_002'] = "Управление входом";
+$locale['login_000'] = "Система Входа";
+$locale['login_001'] = "Система Входа позволяет управлять учетными записями пользователей с помощью сторонней системы аутентификации.";
+$locale['login_002'] = "Управление Входом";
 
 /*
  * Administration
