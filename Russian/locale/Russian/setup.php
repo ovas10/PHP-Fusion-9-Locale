@@ -288,7 +288,6 @@ $locale['setup_3645'] = "Приватность";
 // Stage 6 - Forum Tags
 $locale['setup_3660'] = "Информация о сайте";
 $locale['setup_3661'] = "Обсуждения, касающиеся управления этим сайтом";
-
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."/user_fields/user_aim.php");
 require_once(dirname(__FILE__)."/user_fields/user_birthdate.php");
@@ -301,7 +300,6 @@ require_once(dirname(__FILE__)."/user_fields/user_web.php");
 require_once(dirname(__FILE__)."/user_fields/user_yahoo.php");
 require_once(dirname(__FILE__)."/user_fields/user_timezone.php");
 require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
-
 // Welcome message
 $locale['setup_3650'] = "Добро пожаловать на сайт";
 // Final message
@@ -336,11 +334,11 @@ $locale['blog']['description'] = "Настройки блогов.";
 $locale['downloads']['title'] = "Файлы";
 $locale['downloads']['description'] = "Настройки загружаемых файлов.";
 $locale['faqs']['title'] = "ЧаВо";
-$locale['faqs']['description'] = "Настройки База знаний: вопросы/ответы.";
+$locale['faqs']['description'] = "Настройки Базы знаний Вопросов и Ответов.";
 $locale['forums']['title'] = "Форум";
-$locale['forums']['description'] = "Доска объявлений/Настройки форумом.";
+$locale['forums']['description'] = "Доска объявлений/Настройки форумов.";
 $locale['news']['title'] = "Новости";
-$locale['news']['description'] = "Управление/настройки Новостями.";
+$locale['news']['description'] = "Управление и настройки Новостей.";
 $locale['photos']['title'] = "Галерея";
 $locale['photos']['description'] = "Настройки Галереи.";
 $locale['polls']['title'] = "Опросы";
@@ -348,3 +346,4 @@ $locale['polls']['description'] = "Настройки Опросов и Голо
 $locale['weblinks']['title'] = "Web-ссылки";
 $locale['weblinks']['description'] = "Настройки Каталога Web-ссылок.";
 $locale['install'] = "Установить ядро";
+
