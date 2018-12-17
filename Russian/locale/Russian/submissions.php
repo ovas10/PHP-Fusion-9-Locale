@@ -1,6 +1,7 @@
 <?php
-$locale['article_submit'] = "Статей: %s";
-$locale['blog_submit'] = "Записей блога: %s";
-$locale['download_submit'] = "Файлов: %s";
-$locale['gallery_submit'] = "Фото: %s";
-$locale['news_submit'] = "Новостей: %s";
+$locale['article_submit'] = "%s Статью";
+$locale['blog_submit'] = " %s Запись в Блог";
+$locale['download_submit'] = "%s Файл";
+$locale['gallery_submit'] = "%s Фото";
+$locale['news_submit'] = "%s Новость";
+
