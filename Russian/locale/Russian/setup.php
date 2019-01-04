@@ -288,6 +288,7 @@ $locale['setup_3645'] = "Приватность";
 // Stage 6 - Forum Tags
 $locale['setup_3660'] = "Информация о сайте";
 $locale['setup_3661'] = "Обсуждения, касающиеся управления этим сайтом";
+
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."/user_fields/user_aim.php");
 require_once(dirname(__FILE__)."/user_fields/user_birthdate.php");
@@ -300,12 +301,13 @@ require_once(dirname(__FILE__)."/user_fields/user_web.php");
 require_once(dirname(__FILE__)."/user_fields/user_yahoo.php");
 require_once(dirname(__FILE__)."/user_fields/user_timezone.php");
 require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
+
 // Welcome message
 $locale['setup_3650'] = "Добро пожаловать на сайт";
 // Final message
 $locale['setup_1700'] = "Установка завершена";
-$locale['setup_1701'] = "Ваш сайт на PHP-Fusion 9 готов к использованию. Нажмите &laquo;Завершить&raquo; для перезаписи временного файла &laquo;config_temp.php&raquo; в &laquo;config.php&raquo;<br/>";
-$locale['setup_1702'] = "<strong>Внимание: После входа на сайт удалите с сервера папку &laquo;/install&raquo; и установите права 644 на файл &laquo;config.php&raquo; в целях безопасности.</strong>";
+$locale['setup_1701'] = "Ваш сайт на PHP-Fusion 9 готов к использованию. Нажмите Завершить для перезаписи временного файла config_temp.php в config.php<br/>";
+$locale['setup_1702'] = "<strong>Внимание: После входа на сайт удалите с сервера папку /install и установите права 644 на файл config.php в целях безопасности.</strong>";
 $locale['setup_1703'] = "Благодарим за использование PHP-Fusion.";
 // Default time settings
 // http://php.net/manual/en/function.strftime.php
