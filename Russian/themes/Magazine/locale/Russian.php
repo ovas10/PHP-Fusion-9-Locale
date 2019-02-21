@@ -15,7 +15,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['MG_description'] = 'Оффициальная тема для PHP-Fusion Andromeda 9.0.3';
+$locale['MG_description'] = 'Оффициальная тема для PHP-Fusion Andromeda 9.03';
 $locale['created_by']  = 'Создана';
 $locale['MG_001'] = 'Привет, ';
 // Templates
@@ -27,3 +27,4 @@ $locale['MG_202'] = 'GitHub URL';
 $locale['MG_203'] = 'Facebook URL';
 $locale['MG_204'] = 'Twitter URL';
 $locale['MG_205'] = 'Google Plus URL';
+
