@@ -10,7 +10,6 @@ $locale['PL_403'] = "Описание";
 $locale['PL_404'] = "Варианты";
 $locale['PL_404a'] = "Включить";
 $locale['PL_404b'] = "Отключить";
-$locale['PL_404c'] = "Изменить";
 $locale['PL_404d'] = "Переустановить";
 
 // Editing Permalinks
