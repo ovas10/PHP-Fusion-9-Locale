@@ -21,16 +21,9 @@ $locale['material_003'] = 'Спрятать боковую панель';
 $locale['material_004'] = 'Маленькая боковая панель';
 $locale['material_005'] = 'Фиксированное меню';
 $locale['material_006'] = 'Фиксированная боковая панель';
-$locale['material_007'] = 'Ошибки фиксированного подвала';
-$locale['material_008'] = 'Полный экран';
 $locale['material_009'] = 'Сообщения';
 $locale['material_010'] = 'Читать';
 $locale['material_011'] = 'Новое сообщение';
 $locale['material_012'] = 'Нет сообщений';
 $locale['material_013'] = 'Создано:';
-// Result Messages
-$locale['material_100'] = 'Ошибка проверки системы';
-$locale['material_101'] = 'Ошибка системных мер безопасности';
-$locale['material_102'] = 'Ошибка загрузки страниц';
-$locale['material_103'] = 'Текст для поиска слишком короткий';
-$locale['material_104'] = 'Поиск не дал результатов';
+
