@@ -325,3 +325,8 @@ $locale['security_007'] = "Все системные сессии очищены
 $locale['security_008'] = "Форма токенов";
 $locale['security_009'] = "Количество выданных токенов для каждой формы";
 $locale['security_010'] = "Проверочный вопрос";
+$locale['security_011'] = "Ошибка ввода";
+$locale['security_012'] = "Ошибка метода входа";
+$locale['security_013'] = "Файл";
+$locale['security_014'] = "База данных";
+
