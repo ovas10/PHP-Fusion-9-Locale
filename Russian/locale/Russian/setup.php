@@ -39,7 +39,6 @@ $locale['setup_0118'] = "Похоже, Ваш сервер не поддержи
 $locale['setup_0119a'] = "Попробуйте увеличить Ваш лимит памяти для PHP до %memory_minimum_limit для предотвращения ошибок в процессе установки.";
 $locale['setup_0119b'] = "Увеличьте ваш лимит памяти путём изменения параметра memory_limit в файле ".get_cfg_var('cfg_file_path')." и затем перезапустите Ваш сервер (либо свяжитесь с системым администратором или хостером для помощи).";
 $locale['setup_0119c'] = "Свяжитесь с Вашим системным администратором или хостером для помощи с увеличением лимита памяти для PHP.";
-$locale['setup_stepx'] = "Шаг %2\$s";
 // Buttons
 $locale['setup_0120'] = "Завершение настройки";
 $locale['setup_0121'] = "Дальше";
@@ -310,8 +309,8 @@ $locale['setup_3650'] = "Добро пожаловать на сайт";
 // Final message
 $locale['setup_1700'] = "Установка завершена";
 $locale['setup_1701'] = "Ваш сайт на PHP-Fusion 9 готов к использованию. Нажмите Завершить для перезаписи временного файла config_temp.php в config.php<br/>";
-$locale['setup_1702'] = "<strong>Внимание: После входа на сайт удалите с сервера папку /install и установите права 644 на файл config.php в целях безопасности.</strong>";
-$locale['setup_1703'] = "Благодарим за использование PHP-Fusion.";
+$locale['setup_1702'] = "<strong>Внимание: После входа на сайт удалите файл install.php и установите права 0644 на файл config.php в целях безопасности.</strong>";
+$locale['setup_1703'] = "Благодарим за выбор PHP-Fusion.";
 // Default time settings
 // http://php.net/manual/en/function.strftime.php
 $locale['setup_3700'] = "%d.%m.%y";
@@ -351,5 +350,6 @@ $locale['polls']['description'] = "Настройки Опросов и Голо
 $locale['weblinks']['title'] = "Web-ссылки";
 $locale['weblinks']['description'] = "Настройки Каталога Web-ссылок.";
 $locale['install'] = "Установить ядро";
+
 
 
