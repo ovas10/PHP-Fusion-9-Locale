@@ -1,26 +1,17 @@
 <?php
-/**
- * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
- * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
- * @locale tinymce           refer to path includes/jscripts/tinymce/langs/{value}.js
- * @locale select2           refer to path includes/dynamics/select2/select2_locale_{value}.js
- * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
- * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
- * @locale filemanager       refer to path includes/filemanager/lang/{value}.php
-  */
 setlocale(LC_TIME, "ru_RU.UTF-8"); // Linux Server (Windows may differ)
-$locale['charset'] = "utf-8";
-$locale['region'] = "RU";
-$locale['xml_lang']  = "ru";
+$locale['charset'] = "utf-8"; // ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
+$locale['region'] = "RU"; // ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
+$locale['xml_lang'] = "ru";
 $locale['short_lang_name'] = "ru";
-$locale['tinymce']   = "ru";
-$locale['select2'] = "ru";
-$locale['phpmailer'] = "ru";
-$locale['filemanager'] = "ru_RU";
-$locale['datepicker'] = "ru";
-$locale['datepicker_js'] = "DD.MM.YYYY H:mm:ss";
-$locale['datepicker_php'] = "d.m.Y H:i:s";
-$locale['password_strength'] = "ru";
+$locale['tinymce'] = "ru"; // refer to path includes/jscripts/tinymce/langs/{value}.js
+$locale['select2'] = "ru"; // refer to path includes/dynamics/assets/select2/select2_locale_{value}.js
+$locale['phpmailer'] = "ru"; // refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
+$locale['filemanager'] = "ru_RU"; // refer to path includes/filemanager/lang/{value}.php
+$locale['datepicker'] = "ru-ru"; // // refer to path includes/dynamics/assets/datepicker/locale/{value}.js
+$locale['datepicker_js'] = "M-DD-YYYY H:mm:ss";
+$locale['datepicker_php'] = "m-d-Y H:i:s";
+$locale['password_strength'] = "ru"; // refer to path includes/dynamics/assets/password/lang/{value}.js
 $locale['date_day'] = "%d %b";
 $locale['text-direction'] = "ltr";
 // Full & Short Months
@@ -241,7 +232,6 @@ $locale['UM101'] = "Изменить язык";
 $locale['UM098'] = "Входящие сообщения:";
 $locale['UM099'] = "Отправленные сообщения:";
 $locale['UM100'] = "Архив сообщений:";
-$locale['UM103'] = "Настроийки акаунта";
 // Keywords and Meta
 $locale['tags'] = "Теги";
 // Captcha
@@ -332,10 +322,6 @@ $locale['global_459'] = "Для пользователя USER_NAME был уст
 // Function parsebytesize()
 $locale['global_460'] = "Пусто";
 $locale['global_461'] = "Байт";
-$locale['global_462'] = "кБ";
-$locale['global_463'] = "МБ";
-$locale['global_464'] = "ГБ";
-$locale['global_465'] = "ТБ";
 //Safe Redirect
 $locale['global_500'] = "Вы перенаправляетесь на %s, пожалуйста, обождите. Если Вас не перенаправило, нажмите здесь.";
 // Captcha Locales
@@ -519,4 +505,6 @@ $locale['fmt_review'] = "отзыв|отзывы";
 $locale['fmt_infusion'] = "процесс|процессы";
 // include Defender locales
 include_once __DIR__."/defender.php";
+
+
 
