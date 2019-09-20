@@ -5,8 +5,7 @@
  * any HTML markup tags in the messages must not be converted or translated.
  *
  * @see http://github.com/kartik-v/bootstrap-fileinput
- * @author CyanoFresh <cyanofresh@gmail.com>
- *
+  *
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 (function ($) {
@@ -15,17 +14,20 @@
     $.fn.fileinputLocales['ru'] = {
         fileSingle: 'файл',
         filePlural: 'файлы',
-        browseLabel: 'Выберите &hellip;',
+        browseLabel: 'Выбрать &hellip;',
         removeLabel: 'Удалить',
         removeTitle: 'Очистить выбранные файлы',
         cancelLabel: 'Отмена',
         cancelTitle: 'Отменить текущую загрузку',
+        pauseLabel: 'Пауза',
+        pauseTitle: 'Приостановить текущую загрузку',
         uploadLabel: 'Загрузить',
         uploadTitle: 'Загрузить выбранные файлы',
         msgNo: 'нет',
         msgNoFilesSelected: '',
+        msgPaused: 'Приостановлено',
         msgCancelled: 'Отменено',
-        msgPlaceholder: 'Выберите {files}...',
+        msgPlaceholder: 'Выбрать {files}...',
         msgZoomModalHeading: 'Подробное превью',
         msgFileRequired: 'Необходимо выбрать файл для загрузки.',
         msgSizeTooSmall: 'Файл "{name}" (<b>{size} KB</b>) имеет слишком маленький размер и должен быть больше <b>{minSize} KB</b>.',
@@ -54,8 +56,11 @@
         msgUploadThreshold: 'Обработка...',
         msgUploadBegin: 'Инициализация...',
         msgUploadEnd: 'Готово',
+        msgUploadResume: 'Возобновление загрузки...',
         msgUploadEmpty: 'Недопустимые данные для загрузки',
         msgUploadError: 'Ошибка загрузки',
+        msgDeleteError: 'Ошибка удаления',
+        msgProgressError: 'Ошибка загрузки',
         msgValidationError: 'Ошибка проверки',
         msgLoading: 'Загрузка файла {index} из {files} &hellip;',
         msgProgress: 'Загрузка файла {index} из {files} - {name} - {percent}% завершено.',
@@ -69,6 +74,10 @@
         msgImageResizeException: 'Ошибка при изменении размера изображения.<pre>{errors}</pre>',
         msgAjaxError: 'Произошла ошибка при выполнении операции {operation}. Повторите попытку позже!',
         msgAjaxProgressError: 'Не удалось выполнить {operation}',
+        msgDuplicateFile: 'Файл "{name}" с размером "{size} KB" уже был выбран ранее. Пропуск повторяющегося выбора.',
+        msgResumableUploadRetriesExceeded: 'Загрузка прервана после <b>{max}</b> попыток для файла <b>{file}</b>! Информация об ошибке: <pre>{error}</pre>',
+        msgPendingTime: '{time} осталось',
+        msgCalculatingTime: 'расчет оставшегося времени',
         ajaxOperations: {
             deleteThumb: 'удалить файл',
             uploadThumb: 'загрузить файл',
@@ -87,7 +96,8 @@
             indicatorNewTitle: 'Еще не загружен',
             indicatorSuccessTitle: 'Загружен',
             indicatorErrorTitle: 'Ошибка загрузки',
-            indicatorLoadingTitle: 'Загрузка ...'
+            indicatorPausedTitle: 'Upload Paused',
+            indicatorLoadingTitle:  'Загрузка ...'
         },
         previewZoomButtonTitles: {
             prev: 'Посмотреть предыдущий файл',
