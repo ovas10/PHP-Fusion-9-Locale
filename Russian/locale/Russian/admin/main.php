@@ -127,3 +127,6 @@ $locale['search_msg_102'] = 'Не удалось загрузить страни
 $locale['search_msg_103'] = 'Строка поиска слишком короткая';
 $locale['search_msg_104'] = 'Результаты не найдены';
 
+$locale['new_update_avalaible'] = "Доступно [LINK]PHP-Fusion v[VERSION]новое обновление[/LINK]. Обновите!";
+
+
