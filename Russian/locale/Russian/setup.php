@@ -299,7 +299,6 @@ require_once __DIR__."/user_fields/user_sig.php";
 require_once __DIR__."/user_fields/user_skype.php";
 require_once __DIR__."/user_fields/user_theme.php";
 require_once __DIR__."/user_fields/user_web.php";
-require_once __DIR__."/user_fields/user_yahoo.php";
 require_once __DIR__."/user_fields/user_timezone.php";
 require_once __DIR__."/user_fields/user_blacklist.php";
 
@@ -349,6 +348,7 @@ $locale['polls']['description'] = "Настройки Опросов и Голо
 $locale['weblinks']['title'] = "Web-ссылки";
 $locale['weblinks']['description'] = "Настройки Каталога Web-ссылок.";
 $locale['install'] = "Установить ядро";
+
 
 
 
