@@ -1,5 +1,5 @@
 <?php
-setlocale(LC_ALL, "ru_RU.UTF-8"); // Linux Server (Windows may differ)
+$locale['setlocale'] = "ru_RU"; // https://www.php.net/manual/en/function.setlocale.php
 $locale['charset'] = "utf-8"; // ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
 $locale['region'] = "RU"; // ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
 $locale['xml_lang'] = "ru";
@@ -266,9 +266,9 @@ $locale['global_199'] = "Внимание: не установлен админ�
 //Titles
 $locale['global_200'] = " - ";
 $locale['global_201'] = ": ";
-$locale['global_202'] = " - Поиск";
-$locale['global_203'] = " - ЧаВо";
-$locale['global_204'] = " - Форум";
+$locale['global_202'] = "Поиск";
+$locale['global_203'] = "ЧаВо";
+$locale['global_204'] = "Форум";
 //Themes
 $locale['global_210'] = "Пропустить";
 $locale['global_300'] = "Тема не найдена";
@@ -469,6 +469,14 @@ $locale['about'] = "О";
 // User status
 $locale['online'] = "В сети";
 $locale['offline'] = "Не в сети";
+// Timer
+$locale['timer_year'] = "год|года|лет";
+$locale['timer_month'] = "месяц|месяца|месяцев";
+$locale['timer_day'] = "день|дня|дней";
+$locale['timer_hour'] = "час|часа|часов";
+$locale['timer_minute'] = "минута|минуты|минут";
+$locale['timer_second'] = "second|seconds";
+$locale['timer'] = "[DAYS] [AGO]"; // Don't translate text between []! Only change the order if you need [AGO] [DAYS].
 // Words for formatting to single and plural forms. Count of forms is language-dependent
 $locale['fmt_submission'] = "присланный материал|присланных материала|присланных материалов";
 $locale['fmt_article'] = "статья|статьи|статей";
@@ -508,6 +516,7 @@ $locale['fmt_review'] = "отзыв|отзывы";
 $locale['fmt_infusion'] = "процесс|процессы";
 // include Defender locales
 include_once __DIR__."/defender.php";
+
 
 
 
