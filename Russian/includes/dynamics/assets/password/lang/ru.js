@@ -1,14 +1,17 @@
-var locale = new Array();
-locale['wordLength'] = 'Пароль слишком короткий';
-locale['wordNotEmail'] = 'Не используйте Е-майл, как пароль';
-locale['wordSimilarToUsername'] = 'Ваш пароль не должен совпадать с Вашим логином';
-locale['wordTwoCharacterClasses'] = 'Используйте разные символы';
-locale['wordRepetitions'] = 'Слишком много попыток';
-locale['wordSequences'] = 'Ваш пароль содержит последовательности';
-locale['weak'] = 'Хилый';
-locale['normal'] = 'Слабый';
-locale['medium'] = 'Средний';
-locale['strong'] = 'Хороший';
-locale['very-strong'] = 'Защищённый';
-locale['show'] = 'Показать';
-locale['hide'] = 'Скрыть';
+var pwstrength_locale = {
+    wordMinLength: 'Слишком короткий пароль',
+    wordMaxLength: 'Ваш пароль слишком длинный',
+    wordInvalidChar: 'Ваш пароль содержит недопустимый символ',
+    wordNotEmail: 'Не используйте e-mail в качестве пароля',
+    wordSimilarToUsername: 'Пароль не должен содержать логин',
+    wordTwoCharacterClasses: 'Используйте разные классы символов',
+    wordRepetitions: 'Слишком много повторений',
+    wordSequences: 'Пароль содержит последовательности',
+    errorList: 'Ошибки:',
+    veryWeak: 'Очень слабый',
+    weak: 'Слабый',
+    normal: 'Нормальный',
+    medium: 'Средний',
+    strong: 'Сильный',
+    veryStrong: 'Очень сильный'
+}
