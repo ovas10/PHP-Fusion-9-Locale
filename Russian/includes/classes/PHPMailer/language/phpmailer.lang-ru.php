@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Russian PHPMailer language file: refer to English translation for definitive list
  * @package PHPMailer
@@ -25,3 +26,5 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Ошибка соединения с 
 $PHPMAILER_LANG['smtp_error']           = 'Ошибка SMTP-сервера: ';
 $PHPMAILER_LANG['variable_set']         = 'Невозможно установить или сбросить переменную: ';
 $PHPMAILER_LANG['extension_missing']    = 'Расширение отсутствует: ';
+
+
