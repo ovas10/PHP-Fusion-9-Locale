@@ -105,6 +105,8 @@ $locale['607'] = "GD1";
 $locale['608'] = "GD2";
 $locale['609'] = "Режим разработки";
 $locale['610'] = "Проверка обновлений";
+$locale['611'] = "Разделитель чисел";
+$locale['612'] = "Разделитель чисел";
 
 $locale['649'] = "Запрещенные имена пользователей:";
 $locale['650'] = "Прочее";
@@ -305,7 +307,12 @@ $locale['security_011'] = "Метод ввода";
 $locale['security_012'] = "Слова";
 $locale['security_013'] = "Цифры";
 $locale['security_014'] = "Оба";
+$locale['security_015'] = "Ошибка входа";
+$locale['security_016'] = "Ошибка метода входа";
+$locale['security_017'] = "Файл";
+$locale['security_018'] = "База данных";
 include_once __DIR__.'/../../../includes/dateformats.php';
+
 
 
 
