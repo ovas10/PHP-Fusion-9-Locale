@@ -9,10 +9,10 @@ $locale['select2'] = "ru"; // refer to path includes/dynamics/assets/select2/sel
 $locale['phpmailer'] = "ru"; // refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
 $locale['filemanager'] = "ru"; // refer to path includes/elFinder/js/i18n/{value}.js
 $locale['datepicker'] = "ru-ru"; // refer to path includes/dynamics/assets/datepicker/locale/{value}.js
-$locale['datepicker_js'] = "M-DD-YYYY H:mm:ss"; // https://momentjs.com/docs/#/displaying/format/
-$locale['datepicker_php'] = "m-d-Y H:i:s"; // https://www.php.net/manual/en/datetime.format.php#refsect1-datetime.format-parameters
+
+
 $locale['password_strength'] = "ru"; // refer to path includes/dynamics/assets/password/lang/{value}.js
-$locale['date_day'] = "%d %b";
+
 $locale['text-direction'] = "ltr";
 // Full & Short Months
 $locale['months']  = "&nbsp;|Январь|Февраль|Март|Апрель|Май|Июнь|Июль|Август|Сентябрь|Октябрь|Ноябрь|Декабрь";
@@ -517,6 +517,7 @@ $locale['fmt_review'] = "отзыв|отзывы";
 $locale['fmt_infusion'] = "процесс|процессы";
 // include Defender locales
 include_once __DIR__."/defender.php";
+
 
 
 
