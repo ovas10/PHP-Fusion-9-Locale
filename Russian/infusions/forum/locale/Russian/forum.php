@@ -23,7 +23,7 @@ $locale['forum_0014'] = "Репутация";
 $locale['forum_0015'] = "Обзор форума";
 $locale['forum_0016'] = "Активность";
 $locale['forum_0017'] = "Автор";
-$locale['forum_0018'] = "Person";
+$locale['forum_0018'] = "Автор";
 $locale['forum_0019'] = "Подфорумов нет";
 
 $locale['forum_0020'] = "Последняя активность";
