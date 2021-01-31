@@ -226,10 +226,12 @@ $locale['UM102'] = "Добавить в ЧаВо";
 $locale['UM096'] = "Добро пожаловать: ";
 $locale['UM097'] = "Личное меню";
 $locale['UM101'] = "Изменить язык";
+$locale['UM103'] = "Выйти как пользователь";
 // Gauges
 $locale['UM098'] = "Входящие сообщения:";
 $locale['UM099'] = "Отправленные сообщения:";
 $locale['UM100'] = "Архив сообщений:";
+
 // Keywords and Meta
 $locale['tags'] = "Теги";
 // Captcha
@@ -248,6 +250,9 @@ $locale['global_180'] = "Панель администратора";
 $locale['global_181'] = "Вернуться на сайт";
 $locale['global_182'] = "Админпароль не введён или введён неправильно.";
 $locale['global_183'] = "Ваш сеанс входа истек. Пожалуйста, войдите снова.";
+$locale['global_184'] = "Теперь вы вошли как  %s";
+$locale['global_185'] = "Теперь вы вернулись к своей учетной записи.";
+
 // Do not add anything within global_183-190. To be reserved for code verification development.
 
 // Miscellaneous
@@ -517,6 +522,7 @@ $locale['fmt_review'] = "отзыв|отзывы";
 $locale['fmt_infusion'] = "процесс|процессы";
 // include Defender locales
 include_once __DIR__."/defender.php";
+
 
 
 
