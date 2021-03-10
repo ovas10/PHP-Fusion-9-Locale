@@ -2,7 +2,7 @@
 /*-------------------------------------------------------+
 | PHPFusion Content Management System
 | Copyright (C) PHP Fusion Inc
-| https://www.phpfusion.com/
+| https://phpfusion.com/
 +--------------------------------------------------------+
 | Filename: Russian.php
 | Author: RobiNN
@@ -63,15 +63,6 @@ $locale['dl_05'] = 'от';
 // Templates/News.php
 $locale['ns_01'] = 'Связанные новости';
 
-// Templates/Profile.php
-$locale['profile_01'] = 'Изменить фото';
-$locale['profile_02'] = 'Фото обложки профиля';
-$locale['profile_03'] = 'Изменить фото обложки';
-$locale['profile_notice_01'] = 'Фото профиля было удалено';
-$locale['profile_notice_02'] = 'Фото профиля обновлено';
-$locale['profile_notice_03'] = 'Фото обложки профиля было удалено';
-$locale['profile_notice_04'] = 'Фото профиля обложки обновлено';
-
 // widget.php
 $locale['widget_title'] = 'Конфигурация темы Материал';
 $locale['widget_title_01'] = 'Основные настройки темы';
@@ -89,7 +80,7 @@ $locale['widget_08'] = 'Нет';
 $locale['widget_09'] = 'Лого сайта';
 $locale['widget_10'] = 'Предосмотр';
 $locale['widget_11'] = 'Действия';
-$locale['widget_12'] = 'Социальные сети не определены. [link]Добавте сеть[/link].';
+$locale['widget_12'] = 'Социальные сети не определены. [link]Добавьте сеть[/link].';
 
 $locale['widget_22'] = 'Скрыть';
 $locale['widget_23'] = 'Исключить панели нижнего колонтитула в';
@@ -103,3 +94,4 @@ $locale['widget_notice_03'] = 'Социальная сеть удалена.';
 $locale['widget_notice_04'] = 'Настройки темы обновлены.';
 
 $locale['widget_notice_08'] = 'Социальные сети переупорядочены.';
+
