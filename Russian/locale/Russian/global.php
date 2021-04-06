@@ -406,6 +406,7 @@ $locale['hide'] = "Скрыть";
 $locale['actions'] = "Действия";
 $locale['language'] = "Язык";
 $locale['loading'] = "Загрузка...";
+$locale['options'] = "Опции";
 // Persons & Identifiers
 $locale['you'] = "Вы";
 $locale['me'] = "я";
@@ -523,6 +524,7 @@ $locale['fmt_review'] = "отзыв|отзывы";
 $locale['fmt_infusion'] = "процесс|процессы";
 // include Defender locales
 include_once __DIR__."/defender.php";
+
 
 
 
