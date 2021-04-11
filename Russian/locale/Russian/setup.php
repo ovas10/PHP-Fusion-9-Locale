@@ -164,7 +164,7 @@ $locale['setup_3016']  = "Участники";
 $locale['setup_3018']  = "Новости";
 $locale['setup_3019']  = "Панели";
 $locale['setup_3020']  = "Фотоальбомы";
-$locale['setup_3021']  = "Информация PHP";
+$locale['setup_3021']  = "Информация сервера";
 $locale['setup_3022']  = "Опросы";
 $locale['setup_3023']  = "Ссылки на сайте";
 $locale['setup_3024']  = "Смайлики";
@@ -348,6 +348,7 @@ $locale['polls']['description'] = "Настройки Опросов и Голо
 $locale['weblinks']['title'] = "Web-ссылки";
 $locale['weblinks']['description'] = "Настройки Каталога Web-ссылок.";
 $locale['install'] = "Установить ядро";
+
 
 
 
