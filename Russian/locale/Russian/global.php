@@ -434,8 +434,8 @@ $locale['parent'] = "Создать как нового предка...";
 $locale['item_order'] = "Порядок элементов";
 $locale['status'] = "Статус";
 $locale['note'] = "Отметить этот элемент";
-$locale['publish'] = "Опубликованные";
-$locale['unpublish'] = "Не опубликованные";
+$locale['publish'] = "Опубликована";
+$locale['unpublish'] = "Не опубликована";
 $locale['published'] = "Опубликована";
 $locale['unpublished'] = "Не опубликована";
 $locale['sticky'] = "Прикреплено";
@@ -524,6 +524,7 @@ $locale['fmt_review'] = "отзыв|отзывы";
 $locale['fmt_infusion'] = "процесс|процессы";
 // include Defender locales
 include_once __DIR__."/defender.php";
+
 
 
 
