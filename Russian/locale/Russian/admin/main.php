@@ -128,8 +128,9 @@ $locale['search_msg_103'] = 'Строка поиска слишком корот
 $locale['search_msg_104'] = 'Результаты не найдены';
 
 $locale['deprecated_section'] = 'Этот раздел устарел. Мы больше не рекомендуем его и планируем вскоре удалить.';
-$locale['new_update_avalaible'] = "Доступно [LINK]PHP-Fusion v[VERSION]новое обновление[/LINK]. Обновите!";
-$locale['upgrade_now'] = "Обновите сейчас";
+$locale['new_update_avalaible'] = "Доступно новое обновление PHPFusion v%s.";
+$locale['upgrade_now'] = "Обновить сейчас";
+
 
 
 
