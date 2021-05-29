@@ -389,6 +389,8 @@ $locale['add'] = "Добавить";
 $locale['save'] = "Сохранить";
 $locale['save_changes'] = "Сохранить изменения";
 $locale['save_and_close'] = "Сохранить и закрыть";
+$locale['save_settings'] = "Сохранить настройки";
+$locale['settings_updated'] = "Настройки успешно обновлены";
 $locale['confirm'] = "Подтвердить";
 $locale['update'] = "Обновить";
 $locale['updated'] = "Обновлено";
@@ -461,6 +463,7 @@ $locale['preview'] = "Предпросмотр";
 $locale['custom'] = "Произвольно";
 $locale['submit'] = "Отправить";
 $locale['submissions'] = "Представленные";
+$locale['submit_access'] = "Доступ к отправленной странице";
 $locale['categories'] = "Категории";
 //Alignment
 $locale['left'] = "Влево";
